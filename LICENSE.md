@@ -1,2 +1,2 @@
 
-Copyright (C) 2022 Lewis Thompson
+Copyright (C) 2022 Hush Digital
