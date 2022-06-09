@@ -1,15 +1,13 @@
 # Display User Downloads
----
 
-### Displays the number of downloads a user has downloaded on the site for certain attachments.   
-
-&nbsp;
+Displays the number of downloads a user has downloaded on the site for certain attachments.   
 
 Not so much plugin and play because of the way it was originally implemented. See instructions below on what to do!
 
 &nbsp;
 
-## PHP
+### PHP
+
 Put this code somewhere in your functions.php file
 
 ---
@@ -53,8 +51,8 @@ add_action('wp_ajax_nopriv_user_addcount', 'user_addcount');
 ```
 &nbsp;
 
+### Javascript
 
-## Javascript
 Put this code somewhere in your JS file. *NOTE: The url for the ajax call will need to be the localised one you've enqueued for your JS asset.*
 
 ---
@@ -83,4 +81,4 @@ $(document).on('click', '.tippy-link', function (e) {
 ```
 &nbsp;
 
-# Enjoy!
+### Enjoy!
